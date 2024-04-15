@@ -21,8 +21,13 @@
 ------------------------------ */
 .menu {background-color: var(--nav-bar);}
 .hero {background-color: var(--hero-section);}
+#about {background-color: var(--hero-section);}
 
-
+.btn-outline-secondary {
+    border-color: white;
+    color: white;
+    text-align: center;
+}
 
 
 

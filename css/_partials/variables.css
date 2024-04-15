@@ -13,13 +13,16 @@
     :root {
         --nav-bar: #2C3E50;
         --hero-section: #1ABC9C;
+        --color-section: #1ABC9C;
         --text-primary: #333333;
         --text-secondary: #223548;
         --text-invert: #fff;
+        --footer:#3A546D;
+        --sub-footer: #2C3E50;
         }
     
         
-        
+
       /* UTULITY */
     .bdb {border: 1px solid red;}
             
