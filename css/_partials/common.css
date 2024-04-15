@@ -29,6 +29,8 @@
     text-align: center;
 }
 
+.footer {background-color: var(--footer);}
+.sub-footer {background-color: var(--sub-footer);}
 
 
 /* ------------------------------
