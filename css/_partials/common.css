@@ -61,6 +61,12 @@
         background-color: var(--hero-section);
         color: var(--text-invert);
 }
+.bh-btn:hover {
+        background-color: var(--text-invert);
+        color: var(--hero-section);
+        border: 1px solid var(--hero-section);
+
+}
 /* /FORM */
 
 /* FOOTER */
