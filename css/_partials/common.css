@@ -23,6 +23,8 @@
 .hero {background-color: var(--hero-section);}
 #about {background-color: var(--hero-section);}
 
+.navbar-toggler:focus {box-shadow: none;}
+
 .btn-outline-secondary {
     border-color: white;
     color: white;
@@ -33,6 +35,8 @@
 .sub-footer {background-color: var(--sub-footer);}
 
 
+
+.test {justify-content: end;}
 /* ------------------------------
             BODY
 ------------------------------ */
