@@ -1,0 +1,22 @@
+/*  ********************************************
+        ------------------------------
+           ***   COMPONENT    ***
+                 - IMAGE -
+        ------------------------------
+********************************************  */
+
+
+/* COMPONETE IMMAGINE */
+.bh-image-componet {
+    /* variable */
+    --bh-border-radius: 25px;
+    /* /variable */
+    border-radius: var(--bh-border-radius);
+    overflow: hidden;
+}
+
+.bh-image-componet img {
+    max-width: 100%;
+    height: auto;
+}
+/* /COMPONETE IMMAGINE */
