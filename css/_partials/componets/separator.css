@@ -10,7 +10,7 @@
 span.bh-separator i {
     /* variable */
     --separator-fs-icon: 35px;
-    --separator-margin-top: 35px;
+    --separator-margin-top: 25px;
     --separator-margin-bottom: 35px;
     /* /variable */
     font-size: var(--separator-fs-icon);
