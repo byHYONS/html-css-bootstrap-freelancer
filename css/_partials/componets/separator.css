@@ -1,0 +1,39 @@
+/*  ********************************************
+        ------------------------------
+           ***   COMPONENT    ***
+               - SEPARATOR -
+        ------------------------------
+********************************************  */
+
+
+/* SEPARATORE */
+span.bh-separator i {
+    /* variable */
+    --separator-fs-icon: 35px;
+    --separator-margin-top: 35px;
+    --separator-margin-bottom: 35px;
+    /* /variable */
+    font-size: var(--separator-fs-icon);
+    color: inherit;
+    text-align: center;
+    margin-top: var(--separator-margin-top);
+    margin-bottom: var(--separator-margin-bottom);
+
+}
+span.bh-separator::after,
+span.bh-separator::before {
+    /* variable */
+    --separator-width: 15%;
+    --separator-height: 3px;
+    --separator-vertical-align: 25%;
+    --separator-margin: 0 25px;
+    /* /variable */
+    content: '';
+    display: inline-block;
+    width: var(--separator-width);
+    height: var(--separator-height);
+    background-color: currentColor;
+    vertical-align: var(--separator-vertical-align);
+    margin: var(--separator-margin);
+}
+/* /SEPARATORE */
